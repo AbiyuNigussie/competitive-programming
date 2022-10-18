@@ -11,6 +11,7 @@ class Solution:
             answer[m] = "Fizz"
           elif answer[m] % 5 == 0:
             answer[m] = "Buzz"
+        answer = [str(i) for i in answer]
         return answer
 
 obj = Solution()
